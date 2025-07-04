@@ -1,1 +1,474 @@
-Hello World
+<!doctype html>
+<html>
+	<head>
+	
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, user-scalable=no, minimal-ui">
+	
+	<title>Rudra Pratap Singh</title>
+
+	<style>
+	body {
+    background: #EEEEEE;
+    font: 13px "Times New Roman", Times, sans-serif;
+    line-height: 1.4;
+    margin: 40px 0;
+}
+
+em {
+    color: #999;
+}
+
+p {
+    line-height: 1.4;
+}
+
+ul {
+    margin-bottom: 0;
+}
+
+li {
+    margin-bottom: 2px;
+}
+
+a {
+    text-decoration: none;
+}
+
+#resume {
+    margin: 0 auto;
+    max-width: 600px;
+    padding: 80px 100px;
+    background: #fff;
+    border: 1px solid #ccc;
+    box-shadow: 2px 2px 4px #aaa;
+    -webkit-box-shadow: 2px 2px 4px #aaa;
+}
+
+.coursesList {
+    width: 28%;
+    vertical-align: top;
+    display: inline-block;
+}
+
+.largeFont {
+    font-size: 20px;
+}
+
+.smallFont {
+    font-size: 13px;
+}
+
+.sectionBlock {
+    display: flex;
+    width: 100%;
+}
+
+.sectionName {
+    width: 18%;
+    vertical-align: top;
+    display: inline-block;
+}
+
+.sectionContent {
+    width: 80%;
+    vertical-align: top;
+    display: inline-block;
+}
+
+.sectionContent ul {
+    padding-left: 20px;
+    margin-top: 6px;
+    list-style-type: circle;
+}
+
+.sectionContent .title {
+    font-weight: bold;
+}
+
+.sectionContent .date {
+    float: right;
+}
+
+.sectionContent .separator {
+    height: 14px;
+}
+
+.sectionLine {
+    border-style: dashed;
+    border-width: 1px;
+    border-color: #CFCFCF;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.divider {
+    font-weight: bold;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.summary {
+    margin-top: 6px;
+}
+
+.skillBlock {
+    margin-bottom: 4px;
+}
+
+.jobBlock {
+    page-break-inside: avoid;
+}
+
+.description {
+    text-align: justify;
+}
+
+blockquote.reference {
+    margin: 0;
+    margin-bottom: 1em;
+}
+
+
+/* Media Queries */
+
+@media only screen and (max-width: 40em) {
+    body {
+        margin: 0;
+        font-size: 14px;
+    }
+    #resume {
+        margin: 0 auto;
+        max-width: 600px;
+        padding: 0.5em 1em;
+        border: none;
+    }
+    .sectionBlock {
+        flex-direction: column;
+    }
+    .sectionContent {
+        width: 100%;
+    }
+    .sectionContent .date {
+        padding-right: 2em;
+    }
+    .sectionName {
+        width: auto;
+    }
+    .largeFont {
+        font-size: 20px;
+    }
+    .smallFont {
+        font-size: 14px;
+    }
+}
+
+@media print {
+    body {
+        background: #FFFFFF;
+    }
+    #resume {
+        margin: 0 auto;
+        max-width: 600px;
+        padding: 0px 0px;
+        border: 0px;
+        background: #fff;
+        box-shadow: none;
+        -webkit-box-shadow: none;
+    }
+    a {
+        color: black;
+    }
+}
+	</style>
+	
+	</head>
+	<body>
+	
+	<div id="resume">
+		<div id='nameBlock' class='largeFont'>
+			<span class='name'>
+				Rudra Pratap Singh,
+			</span>
+			<span class='label'>Machine Learning Student</span>
+		</div>
+		<div id='basicsBlock' class='smallFont'>
+			<div class='contactBlock'>
+				<span class='email'>rudrapratapsinghodm@gmail.com</span>
+				<span class='divider'>|</span>
+				<span class='phone'>(+91) 826-033-4581</span>
+				<span class='divider'>|</span>
+				<span class='address'>
+					Gandhinagar, Gujrat, GJ
+				</span>
+			</div>
+			<div id='profilesBlock'>
+				<span class='url'>
+					<b>Github:</b> <a href='https://github.com/23110281'>https://github.com/23110281</a>
+				</span>
+				
+			</div>
+		</div>
+		
+		<div class='sectionLine'></div>
+		<div id='summaryBlock' class="sectionBlock">
+			<div class='sectionName'>
+				<span>SUMMARY</span>
+			</div>
+			<div class='sectionContent'>
+				<span>I am an Artifical Intelligence Student at IIT Gandhinagar, actively contributing to a range of projects since 2023. While most of my work has been conducted under faculty supervision I have been personally involved in actively getting the projects up and running. I am focused on learning how ML systems are actually deployed in production. I&#x27;m generally very flexible to the projects I work on and am ready to adapt to challenging situations.</span>
+			</div>
+		</div>
+		<div class='sectionLine'></div>
+		<div id='education' class="sectionBlock">
+			<div class='sectionName'>
+				<span>EDUCATION</span>
+			</div>
+			<div class='sectionContent'>
+				<div class='educationBlock'>
+					<span class='title'>
+						Indian Institute of Technology Gandhinagar
+					</span>
+					<span class='date'>
+						Jan 1, 2023 - present
+					</span>
+					<div class=''>
+						B.Tech  - Artifical Intelligence
+					</div>
+					<div id='coursesBlock'>
+						<ul class='coursesList'>
+						</ul>
+					</div>
+				</div>
+				
+			</div>
+		</div>
+		<div class='sectionLine'></div>
+		<div id='skills' class="sectionBlock">
+			<div class='sectionName'>
+				<span>SKILLS</span>
+			</div>
+			<div class='sectionContent'>
+				<div class='skillBlock'>
+					<span class='title'>Machine Learning <em>(Student)</em>:</span>
+					<span>Machine Learning Algorithms</span>, 
+					<span>Deep Learning</span>, 
+					<span>Generative AI (LLMs, Diffusion Models)</span>
+				</div>
+				<div class='skillBlock'>
+					<span class='title'>Programming <em>(Student)</em>:</span>
+					<span>Python</span>, 
+					<span>C++</span>
+				</div>
+			</div>
+		</div>
+		<div class='sectionLine'></div>
+		<div id='projectsBlock' class="sectionBlock">
+			<div class='sectionName'>
+				<span>PROJECTS</span>
+			</div>
+			<div class='sectionContent'>
+				<div class="projectBlock">
+					<div class='blockHeader'>
+						<span class='title'>
+							Human Activity Recognition Pipeline
+						</span>
+						
+						
+						<span class='date'>
+							Aug 1, 2024 - Nov 30, 2024
+						</span>
+					</div>
+					<div><a href=''></a></div>
+					<div class="description">
+						<p>Accelerometer EDA · PCA· TSFEL feature extraction · Decision Tree benchmarking</p>
+					</div>
+					<ul class='highlights'>
+						<li>UCI-HAR data preprocessing</li>
+						<li>Multi-method PCA visualization</li>
+						<li>Sklearn &amp; custom Decision Trees</li>
+						<li>Zero-/Few-Shot LLM prompting</li>
+					</ul>
+					<div class='separator'></div>
+				</div>
+				<div class="projectBlock">
+					<div class='blockHeader'>
+						<span class='title'>
+							Gradient Descent &amp; RFF Projects
+						</span>
+						
+						
+						<span class='date'>
+							Aug 1, 2024 - Nov 30, 2024
+						</span>
+					</div>
+					<div><a href=''></a></div>
+					<div class="description">
+						<p>Torch autograd · Full/mini/stochastic GD · Momentum · RFF for image/audio reconstruction</p>
+					</div>
+					<ul class='highlights'>
+						<li>Contour &amp; convergence plots</li>
+						<li>Momentum vs vanilla GD</li>
+						<li>RFF-based super-resolution</li>
+						<li>MSE·PSNR·SNR evaluation</li>
+					</ul>
+					<div class='separator'></div>
+				</div>
+				<div class="projectBlock">
+					<div class='blockHeader'>
+						<span class='title'>
+							Analysis of Attention During Visual Search
+						</span>
+						
+						
+						<span class='date'>
+							Aug 1, 2024 - Nov 30, 2024
+						</span>
+					</div>
+					<div><a href=''></a></div>
+					<div class="description">
+						<p>Eye-tracking framework · WebGazer.js · Computer Vision · Visual search tasks</p>
+					</div>
+					<ul class='highlights'>
+						<li>WebGazer.js integration</li>
+						<li>Subtle-change detection tests</li>
+						<li>Radiologist driller vs scanner patterns</li>
+						<li>Heatmap &amp; quadrant-wise metrics</li>
+					</ul>
+					<div class='separator'></div>
+				</div>
+				<div class="projectBlock">
+					<div class='blockHeader'>
+						<span class='title'>
+							Next-Word Text Generator &amp; XOR/MLP Studies
+						</span>
+						
+						
+						<span class='date'>
+							Aug 1, 2024 - Nov 30, 2024
+						</span>
+					</div>
+					<div><a href=''></a></div>
+					<div class="description">
+						<p>MLP word-level RNN · t-SNE embeddings · Streamlit UI · XOR logistic/regularized baselines · MNIST vs Fashion-MNIST</p>
+					</div>
+					<ul class='highlights'>
+						<li>Next-word prediction MLP</li>
+						<li>Embedding visualization</li>
+						<li>Streamlit demo with hyperparameters</li>
+						<li>Model comparison on XOR &amp; MNIST</li>
+					</ul>
+					<div class='separator'></div>
+				</div>
+				<div class="projectBlock">
+					<div class='blockHeader'>
+						<span class='title'>
+							Image Processing Toolkit (IPT2)
+						</span>
+						
+						
+						<span class='date'>
+							Jan 1, 2025 - Apr 30, 2025
+						</span>
+					</div>
+					<div><a href=''></a></div>
+					<div class="description">
+						<p>HDL-based deconvolution · Blind/non-blind Lucy–Richardson · Digital systems lab</p>
+					</div>
+					<ul class='highlights'>
+						<li>Blind &amp; non-blind deconvolution</li>
+						<li>Lucy–Richardson algorithm</li>
+						<li>HDL/Verilog implementation</li>
+					</ul>
+					<div class='separator'></div>
+				</div>
+				<div class="projectBlock">
+					<div class='blockHeader'>
+						<span class='title'>
+							CNN Architectures &amp; KNN Variants
+						</span>
+						
+						
+						<span class='date'>
+							Aug 1, 2024 - Nov 30, 2024
+						</span>
+					</div>
+					<div><a href=''></a></div>
+					<div class="description">
+						<p>VGG variants · Transfer learning · TensorBoard logging · LSH/KD-tree/naive KNN benchmarks</p>
+					</div>
+					<ul class='highlights'>
+						<li>Custom VGG vs pretrained</li>
+						<li>Data augmentation impact</li>
+						<li>TensorBoard scalars/images</li>
+						<li>Approximate KNN analysis</li>
+					</ul>
+					<div class='separator'></div>
+				</div>
+				<div class="projectBlock">
+					<div class='blockHeader'>
+						<span class='title'>
+							Active Learning &amp; Cost-Effective Labeling
+						</span>
+						
+						
+						<span class='date'>
+							Jan 1, 2025 - Apr 30, 2025
+						</span>
+					</div>
+					<div><a href=''></a></div>
+					<div class="description">
+						<p>Uncertainty sampling · Query-by-committee · Active learning loop implementation · Cost-effectiveness evaluation</p>
+					</div>
+					<ul class='highlights'>
+						<li>Active learning for annotation</li>
+						<li>Uncertainty sampling strategies</li>
+						<li>Query-by-committee methods</li>
+						<li>Cost vs. random sampling analysis</li>
+					</ul>
+					<div class='separator'></div>
+				</div>
+				<div class="projectBlock">
+					<div class='blockHeader'>
+						<span class='title'>
+							Deployment on Constrained Devices
+						</span>
+						
+						
+						<span class='date'>
+							Jan 1, 2025 - Apr 30, 2025
+						</span>
+					</div>
+					<div><a href=''></a></div>
+					<div class="description">
+						<p>Model quantization · TensorFlow Lite conversion · Size &amp; speed optimization on edge devices</p>
+					</div>
+					<ul class='highlights'>
+						<li>Quantization techniques</li>
+						<li>TFLite conversion</li>
+						<li>Performance profiling on device</li>
+						<li>Size &amp; latency trade-offs</li>
+					</ul>
+					
+				</div>
+			</div>
+		</div>
+		<div class='sectionLine'></div>
+		<div id='languages' class="sectionBlock">
+			<div class='sectionName'>
+				<span>LANGUAGES</span>
+			</div>
+			<div class='sectionContent'>
+				<span class='language'>English</span>
+				<span class='fluency'><em>(Fluent)</em></span>
+				<span>,</span>
+				<span class='language'>Hindi</span>
+				<span class='fluency'><em>(Fluent)</em></span>
+				
+			</div>
+		</div>
+		<div class='sectionLine'></div>
+			</div>
+		</div>
+	</body>
+</html>
